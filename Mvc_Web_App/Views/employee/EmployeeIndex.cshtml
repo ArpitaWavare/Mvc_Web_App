@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "EmployeeIndex";
+}
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<script src="~/Content/employee.js"></script>
+
+
+<h2>EmployeeIndex</h2>
+
+@*<div class="table-responsive">
+        <table id="tblEmployee" class="table table-bordered table-hover table-striped table-responsive" style="width:100%;">
+            <thead class=" text-white bg-dark">
+                <tr>
+
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Mobile_No</th>
+                    <th>Email</th>
+                    <th>Address</th>
+
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>*@
+
+<input type="text" id="txtpin" />
+<button type="button" onclick="Getpostal()">Search</button>
+<table id="tblpostal" class="table table-bordered">
+    <thead>
+        <tr>
+            <th> Name</th>
+            <th> Description</th>
+            <th> BranchType</th>
+            <th> DeliveryStatus</th>
+            <th> Circle</th>
+            <th> District</th>
+            <th> Division</th>
+            <th> Region</th>
+            <th>Block </th>
+            <th> State</th>
+            <th> Country</th>
+            <th> Pincode</th>
+        </tr>
+    </thead>
+    <tbody> </tbody>
+</table>
